@@ -1,0 +1,403 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+.navbar {
+    position: fixed;
+    width: 98%;
+    height: 7rem;
+    background-color: #2C3E50;
+    padding-right: 0.75rem;
+    padding-left: 0.75rem;
+    margin-right: auto;
+    margin-left: auto;
+    z-index: 1;
+}
+
+.start {
+    display: inline-block;
+    padding-top: 2rem;
+    margin-left: 100px;
+    font-weight: 750;
+    font-size: 1.75em;
+    color: white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+
+
+.navbar ul a {
+    text-decoration: none;
+    color: white;
+    font-weight: 750;
+    font-size: 1rem;
+    color: white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+
+.navbar ul {
+    margin-left: 900px;
+    width: 30%;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    margin-top: -1.5rem;
+}
+
+.navbar ul a:hover {
+    color: #1ABC9C;
+    transition: 0.2s;
+}
+
+.section2 {
+    width: 100%;
+    height: 1300px;
+    background-color: #1ABC9C;
+    position: relative;
+}
+
+.section2 img {
+    width: 15rem;
+    display: block;
+    position: absolute;
+    top: 250px;
+    left: 610px;
+}
+
+.metn1 {
+    display: inline-block;
+    padding-top: 2rem;
+    margin-left: 325px;
+    font-weight: 600;
+    font-size: 5em;
+    color: white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-top: 600px;
+
+}
+
+.xett {
+    width: 113px;
+    height: 5px;
+    border-radius: 3px;
+    background-color: white;
+    display: inline-block;
+
+}
+
+.umumiulduz {
+    display: flex;
+    justify-content: center;
+    height: 300px;
+    align-items: center;
+    margin-left: 100px;
+}
+
+.ulduz i {
+    color: white;
+    display: inline-block;
+
+}
+
+.ulduz i::before {
+    font-size: 60px;
+}
+
+.grap {
+    margin-top: 150px;
+    display: inline-block;
+    padding-top: 2rem;
+    margin-left: -450px;
+    font-weight: 600;
+    font-size: 1.5em;
+    color: white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+.xett1 {
+    width: 113px;
+    height: 5px;
+    border-radius: 3px;
+    background-color: #2C3E50;
+    display: inline-block;
+
+}
+
+.umumiulduz1 {
+    display: flex;
+    justify-content: center;
+    height: 160px;
+    align-items: center;
+    margin-left: 100px;
+}
+
+.ulduz1 i {
+    color: #2C3E50;
+    display: inline-block;
+
+}
+
+.ulduz1 i::before {
+    font-size: 60px;
+}
+
+.metn2 {
+    color: #2C3E50;
+    display: inline-block;
+    padding-top: 2rem;
+    margin-left: 25rem;
+    font-weight: 600;
+    font-size: 5em;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-top: 100px;
+
+}
+
+.forimg {
+    display: inline-block;
+}
+
+.forimg img {
+    width: 420px;
+    border-radius: 0.5rem;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+
+.sekiller {
+    margin-left: 6rem;
+    margin-bottom: 90px;
+}
+
+.sect4 {
+    width: 100%;
+    height: 900px;
+    background-color: #1ABC9C;
+}
+
+#ab {
+    margin-left: 630px;
+    color: white;
+    font-weight: 700;
+}
+
+.yazilar {
+    width: 100%;
+}
+
+.word {
+    
+    width: 45%;
+    column-gap: 20px;
+    column-count: 2;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; 
+    color: white;
+    margin-left: 30%;
+    margin-top: 50px;
+}
+
+
+.free {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+   margin-top: 50px;
+}
+
+#ikonlu {
+    width: 300px;
+    height: 80px;
+    border-radius: 15px;
+    border: 3px solid white;
+    background-color: #1ABC9C;
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    line-height: 80px;
+}
+
+#ikonlu:hover {
+    background-color: white;
+    color: black;
+    cursor: pointer;
+    transition: 0.15s;
+}
+
+.metn3 {
+    color: #2C3E50;
+    display: inline-block;
+    padding-top: 2rem;
+    margin-left: 28rem;
+    font-weight: 600;
+    font-size: 3.5em;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-top: 100px;
+}
+
+.inputlar {
+    width: 133%;
+    border: none;
+    font-size: 30px;
+    border-bottom: 1px solid grey;
+    margin-bottom: 80px;
+    padding-bottom: 20px;
+
+}
+
+#sub {
+    color: white;
+    border-radius: 10px;
+    width: 140px;
+    height: 70px;
+    padding-top: 10px;
+    background-color: #1ABC9C;
+}
+
+.inputlar:focus {
+    outline: none;
+}
+
+.uzun {
+    width: 500px;
+    border: none;
+    margin-left: 400px;
+}
+
+.cem {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+}
+
+.sekiller1 {
+    position: absolute;
+    opacity: 1;
+    top: 0px;
+    margin-left: 6rem;
+    margin-bottom: 100px;
+}
+
+.nigar {
+    width: 420px;
+    height: 306px;
+    border-radius: 0.5rem;
+    opacity: 0;
+}
+
+.nigar:hover {
+    transition: 0.2s;
+    opacity: 1;
+    background-color: rgba(26, 188, 156, 0.9);
+
+}
+
+.nigar img {
+    color: white;
+    width: 80px;
+    height: 80px;
+    margin-left: 170px;
+    margin-top: 120px;
+}
+
+.son1 {
+    display: flex;
+    width: 100%;
+    height: 300px;
+    background-color: #2C3E50;
+}
+
+.hisse1 {
+    width: 33.3%;
+    height: 300px;
+
+}
+
+.hisse2 {
+    width: 33.3%;
+    height: 300px;
+}
+
+.hisse3 {
+    width: 33.3%;
+    height: 300px;
+}
+
+.hisse1yazi {
+    text-align: center;
+
+}
+
+#loc {
+    text-align: center;
+    color: white;
+    font-weight: 900;
+    font-size: 30px;
+    line-height: 150px;
+}
+
+#john {
+    margin-left: 130px;
+    width: 50%;
+    color: white;
+    font-size: 25px;
+    justify-content: center;
+}
+
+#son {
+    width: 100%;
+}
+
+#copyright {
+    height: 140px;
+    color: white;
+    font-size: 18px;
+    text-align: center;
+    line-height: 135px;
+    background-color: #101e2d;
+}
+
+.ustegel {
+    filter: invert(85%) sepia(100%) saturate(1%) hue-rotate(184deg) brightness(109%) contrast(97%);
+}
+
+#linkim {
+    color: #1ABC9C;
+}
+
+.logolor {
+    width: 100%;
+    display: inline-block;
+
+}
+
+.logolar {
+    margin-left: 120px;
+}
+
+.fb {
+    width: 13%;
+    display: inline-block;
+    height: 50px;
+    margin-left: 5px;
+    border-radius: 500px;
+    border: 2px solid white;
+}
+
+.fb i {
+    font-size: 20px;
+    color: white;
+    display: inline-block;
+    margin-left: 17px;
+    margin-top: 12px;
+}
+
+.fb:hover {
+    background-color: white;
+
+}
+
+.fb i:hover {
+    color: black;
+}
